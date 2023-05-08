@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(135, 242, 242);
+}
+
+
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 38%;
+		height: 150px;
+		background-color: rgb(136, 69, 7);
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 3px;
+	color: tomato;
+	font-weight: bold;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h1{
+	color: orange;
+	font-family: 'Akaya Kanadaka', cursive;
+}
+h3{
+	font-family: 'Lora', serif;
+	color: rgb(251, 255, 255);
+}
+label{
+	font-family: 'Yellowtail', cursive;
+	color: turquoise;
+}
+button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: azure;
+}
+input:hover{
+	background-color: rgb(166, 246, 152);
+    color: #AA4465;
+}
+div:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 45%;
+}
